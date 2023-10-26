@@ -55,13 +55,8 @@ footer {
 }
 
 .icon {
-    color: white;
     width: 26px;
     padding-bottom: 0.5rem;
-}
-
-.light-gray{
-    color: lightgray;
 }
 
 .small-gray {
@@ -74,15 +69,79 @@ footer {
     border-radius: 30px;
 }
 
+.spotify-img {
+    display: none;
+}
+
+.white {
+    display: none;
+}
+
 
 @media  screen and (min-width: 576px) {
+
     html, body {
         min-width: 576px;
+    }
+
+    header {
+        height: 20%;
+        text-align: start;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0 1.5rem;
     }
     
     .blue-left {
         width: 200px;
     }
+
+    .fa-spotify {
+        display: none;
+    }
+
+    .spotify-img {
+        display: inline-block;
+        width: 100%;
+        padding-bottom: 1.5rem;
+    }
+
+    .white {
+        color: white;
+        display: block;
+    }
+
+    .inline-block {
+        display: flex;
+        align-items: center;
+    }
+
+    .margin {
+        margin-right: 0.5rem;
+    }
+
+    .p-bottom {
+        padding-bottom: 1rem;
+    }
+
+    .fa-sharp {
+        color: gray;
+        font-size: 40px;
+    }
+
+    .list-type {
+        list-style-type: none;
+    }
+
+    .gray {
+        color: gray;
+    }
+
+    .li-bottom {
+        padding-bottom: .5rem;
+    }
 }
+
 
     
